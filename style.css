@@ -1,0 +1,72 @@
+
+p#unico.foo.bar.baz{
+    color: red;
+}
+
+p#unico.foo.bar{
+    color: green !important;
+}
+
+.main {
+    color: rebeccapurple;
+    border: 2px solid #ccc;
+    padding: 1em;
+}
+
+.special {
+    color: red;
+    font-weight: bold;
+}
+
+.rectangulo{
+    width: 450px;
+    height: 250px;
+    background-color: darkgoldenrod;
+}
+
+.caja{
+    width: 50%;
+    height: 250px;
+    background-color: green;
+}
+
+.caja_interior{
+    width: 50%;
+    height: 50%;
+    background-color: blueviolet;
+}
+
+.caja_interior p{
+    font-size: 4rem;
+}
+    */
+
+body{
+    margin: 0;
+}
+
+.viewport{
+    width: 100vw;
+    height: 100vw;
+    background-color: red;
+}
+
+div{
+    width: 250px;
+    height: 250px;
+    background-color: red;
+    /*
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    */
+    padding: 25px;
+    /*
+    border-left: 12px;
+    border-right: 12px;
+    border-top: 12px;
+    border-bottom: 12px dashed green;
+    */
+    border: 12px solid yellow;
+}
